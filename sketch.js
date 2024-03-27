@@ -3,31 +3,30 @@ function setup() {
 }
 
 function draw() {
-  background(135, 206, 235); // light blue sky
+  background(135, 206, 235); 
   
-  // Draw Sun
-  fill(255, 255, 0); // yellow
-  ellipse(350, 50, 80, 80); // sun
+  fill(255, 255, 0); 
+  ellipse(350, 50, 80, 80); 
 
-  // Draw Ground
-  fill(34, 139, 34); // green
-  rect(0, 300, displayWidth, 900); // ground
   
-  // Draw House
-  fill(255, 228, 181); // peach
-  stroke(139, 69, 19); // brown
-  rect(150, 200, 200, 200); // main body
+  fill(34, 139, 34); 
+  rect(0, 300, displayWidth, 900); 
+  
+  
+  fill(255, 228, 181); 
+  stroke(139, 69, 19); 
+  rect(150, 200, 200, 200); 
   fill(100, 149, 237);
-  triangle(150, 200, 250, 100, 350, 200); // roof
+  triangle(150, 200, 250, 100, 350, 200); 
 
-  // Door
-  fill(100, 149, 237); // cornflower blue
+  
+  fill(100, 149, 237); 
   rect(240, 300, 60, 100);
-  fill(255); // white
+  fill(255); 
   ellipse(245, 350, 5, 5);
   
-  // Windows
-  fill(176, 224, 230); // powder blue
+  
+  fill(176, 224, 230); 
   rect(180, 250, 40, 40);
   rect(280, 250, 40, 40);
 }
